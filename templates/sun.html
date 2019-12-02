@@ -2,30 +2,46 @@
 
 
 {% block content %}
-<div class="bg-img">
+<div class="bg-img2">
     {% include 'partials/navbar.html' %}
-<div class="container">
-    <h1 class="my-4">Page Heading
-        <small>Secondary Text</small>
+<div class="container text-light">
+    <h1 class="my-4 text-center">Search Your City
     </h1>
+<div class="d-flex justify-content-center">
+    <form action="/sun">
+        <div class="searchBar">
+                <input type="text"
+                id="searchbar"
+                class="searchBarStyle"
+                name="search"
+                placeholder="Search..."
+                oninput="updateSearch()"
+                onfocus="setCaretPositionToEnd(this)"
+                autofocus
+                value="{{search}}">
+                <button type="submit" class="searchButton">Submit</button>
+        </div>
+    </form>
+</div>
+<h2 class="text-right">San Francisco</h2>
     <div class="row">
-        <div class="col-lg-6 mb-4">
-            <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="col-lg-6 mb-4 text-dark">
+            <div class="card" style="width: 33rem;">
+                <a href="#"><img class="card-img-top" src="static/images/sunrise.png" alt="sunrise" style="height:400px;"></a>
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="#">Project One</a>
+                        <h2>Sunrise</h2>
                     </h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-6 mb-4">
-            <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card bg-dark" style="width: 33rem;">
+                <a href="#"><img class="card-img-top" src="static/images/sunset.png" alt="sunrise" style="height:400px;"></a>
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="#">Project One</a>
+                        <h2>Sunset</h2>
                     </h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
                 </div>

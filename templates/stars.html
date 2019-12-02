@@ -1,72 +1,68 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="bg-img">
+<div class="bg-img2 text-light">
     {% include 'partials/navbar.html' %}
-        <div class="container text-light">
-            <h1 class="my-4">Page Heading
-                <small>Secondary Text</small>
-            </h1>
-            <div class="row">
-                <div class="col-md-8">
-                    <img class="img-fluid" src="http://placehold.it/700x400" alt="">
-                </div>
-                    <div class="col-md-4">
-                    <h3 class="my-3">Project Description</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nam viverra euismod odio, gravida pellentesque urna varius vitae.
-                        Sed dui lorem, adipiscing in adipiscing et, interdum nec metus.
-                        Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                    <h3 class="my-3">Project Details</h3>
-                    <ul>
-                        <li>Lorem Ipsum</li>
-                        <li>Dolor Sit Amet</li>
-                        <li>Consectetur</li>
-                        <li>Adipiscing Elit</li>
-                    </ul>
-                </div>
+        <h1 class="" style="padding-left: 35%">Star Map
+        </h1>
+        <div class="row" style="padding-left: 10%">
+            <div class="col-md-8">
+            <iframe width="1000" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+            src="http://slowe.github.io/VirtualSky/embed?&projection=lambert&constellations=true&constellationlabels=true&gridlines_az=true&live=true&az=136.75"
+            allowTransparency="true">
+            </iframe>
             </div>
-            <h3 class="my-4">Related Projects</h3>
-        <div class="row text-dark">
+                <div class="col-md-3">
+                <h3>Project Description</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                    Sed dui lorem, adipiscing in adipiscing et, interdum nec metus.
+                    Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+
+            </div>
+        </div>
+        <h3 class="my-4 text-center">Star Constellations</h3>
+    <div class="container">
+        <div class="row">
             <div class="col-md-3 col-sm-6 mb-4">
-                <div class="card" style="width: 15rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card bg-dark" style="width: 15rem;">
+                <img src="static/images/orion.jpg" class="card-img-top" alt="..."style="height:150px;">
                     <div class="card-body">
                         <h4 class="card-title">
-                            <a href="#">Project One</a>
+                            <a href="#">Orion</a>
                         </h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 mb-4">
-                <div class="card" style="width: 15rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card bg-dark" style="width: 15rem;">
+                    <img src="static/images/capricornus.png" class="card-img-top" alt="..."style="height:150px;">
                     <div class="card-body">
                         <h4 class="card-title">
-                            <a href="#">Project One</a>
+                            <a href="#">Capricornus</a>
                         </h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 mb-4">
-                <div class="card" style="width: 15rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card bg-dark" style="width: 15rem;">
+                    <img src="static/images/scorpius.jpg" class="card-img-top" alt="..."style="height:150px;">
                     <div class="card-body">
                         <h4 class="card-title">
-                            <a href="#">Project One</a>
+                            <a href="#">Scorpius</a>
                         </h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 mb-4">
-                <div class="card" style="width: 15rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="card bg-dark" style="width: 15rem;">
+                    <img src="static/images/ursamajor.jpg" class="card-img-top" alt="..."style="height:150px;">
                     <div class="card-body">
                         <h4 class="card-title">
-                            <a href="#">Project One</a>
+                            <a href="#">Ursa Major</a>
                         </h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
