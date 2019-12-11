@@ -1,28 +1,20 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="bg-img2 text-light">
+<div class="bg-img2 text-center text-light">
     {% include 'partials/navbar.html' %}
-        <h1 class="" style="padding-left: 35%">Star Map
+        <h1 class="" style="">Star Map
         </h1>
-        <div class="row" style="padding-left: 10%">
+        <div class="row" style="padding-left: 5%">
             <div class="col-md-8">
-            <iframe width="1000" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+            <iframe width="1500" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
             src="https://slowe.github.io/VirtualSky/embed?&projection=lambert&constellations=true&constellationlabels=true&gridlines_az=true&live=true&az=136.75"
             allowTransparency="true">
             </iframe>
-            </div>
-                <div class="col-md-3">
-                <h3>Project Description</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nam viverra euismod odio, gravida pellentesque urna varius vitae.
-                    Sed dui lorem, adipiscing in adipiscing et, interdum nec metus.
-                    Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-
-            </div>
         </div>
+
+    <div class="container" style="">
         <h3 class="my-4 text-center">Star Constellations</h3>
-    <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-6 mb-4">
                 <div class="card bg-dark" style="width: 15rem;">
