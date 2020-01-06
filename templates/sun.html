@@ -7,6 +7,8 @@
 <div class="container text-light">
     <h1 class="my-4 text-center">Search Your City
     </h1>
+    {{ test }}
+    {{ test2 }}
 <div class="d-flex justify-content-center">
     <form action="/sun">
         <div class="searchBar">
@@ -23,7 +25,7 @@
         </div>
     </form>
 </div>
-<h2 class="text-right">San Francisco</h2>
+<h2 class="text-right">{{ city }}</h2>
     <div class="row">
         <div class="col-lg-6 mb-4 text-dark">
             <div class="card" style="width: 33rem;">
@@ -32,7 +34,7 @@
                     <h4 class="card-title">
                         <h2>Sunrise</h2>
                     </h4>
-                    <p class="card-text">7:16 AM</p>
+                    <p class="card-text">{{ sunrise }} AM</p>
                 </div>
             </div>
         </div>
@@ -43,7 +45,7 @@
                     <h4 class="card-title">
                         <h2>Sunset</h2>
                     </h4>
-                    <p class="card-text">4:51 PM</p>
+                    <p class="card-text">{{ sunset }} PM</p>
                 </div>
             </div>
         </div>
