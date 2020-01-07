@@ -28,6 +28,7 @@ def sun():
     r = requests.get('http://open.mapquestapi.com/geocoding/v1/address', params=params)
     lat = r.json()["results"][0]["locations"][0]["latLng"]["lat"]
     long = r.json()["results"][0]["locations"][0]["latLng"]["lng"]
+
     headers = {
         'apiKey': API_KEY_GEO,
         'lat': lat,
@@ -41,7 +42,10 @@ def sun():
 @app.route('/stars')
 def stars():
     """Return Stars Page"""
-    return render_template('stars.html')
+    projection = request.args.get("Item_1")
+    if projection == None:
+        projection = 'gnomish'
+    return render_template('stars.html', projection=projection)
 
 
 if __name__ == '__main__':
