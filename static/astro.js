@@ -2,7 +2,7 @@ var planetarium8;
 S(document).ready(function() {
 	planetarium8 = S.virtualsky({
 		'id': 'starmap8',
-		'projection': 'polar',
+		'projection': 'gnomic',
 		'ra': 83.8220833,
 		'dec': -5.3911111,
 		'ground': false,
