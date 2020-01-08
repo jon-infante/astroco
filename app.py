@@ -42,9 +42,9 @@ def sun():
 @app.route('/stars')
 def stars():
     """Return Stars Page"""
-    projection = request.args.get("Item_1")
+    projection = None
     if projection == None:
-        projection = 'gnomish'
+        projection = 'gnomic'
     return render_template('stars.html', projection=projection)
 
 
