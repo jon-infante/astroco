@@ -3,13 +3,13 @@ S(document).ready(function() {
 	planetarium8 = S.virtualsky({
 		'id': 'starmap8',
 		'projection': 'gnomic',
-		'ra': 83.8220833,
-		'dec': -5.3911111,
+		'ra': 15,
+		'dec': -25,
 		'ground': false,
 		'constellations': true,
 		'constellationlabels': true,
 		'gridlines_gal': true,
-		'fov': 15,
+		'fov': 60,
 		'callback': {
 			'contextmenu': function(e){
 				console.log('contextmenu callback', e);
@@ -31,8 +31,8 @@ planetarium8.draw();
 	});
 
 	S('button#orion').on('click',function(){ planetarium8.panTo(86,6,3000); });
-	S('button#capricornus').on('click',function(){ planetarium8.panTo(150,140,3000); });
-	S('button#scorpius').on('click',function(){ planetarium8.panTo(83.6330833,22.0145000,3000); });
-	S('button#ursamajor').on('click',function(){ planetarium8.panTo(83.8220833,-5.3911111,3000); });
+	S('button#capricornus').on('click',function(){ planetarium8.panTo(-40,-20,3000); });
+	S('button#scorpius').on('click',function(){ planetarium8.panTo(-105,-30,3000); });
+	S('button#ursaM').on('click',function(){ planetarium8.panTo(335,120,3000); });
 
 });
