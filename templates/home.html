@@ -1,16 +1,15 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="bg-img">
-    {% include 'partials/navbar.html' %}
+{% include 'partials/navbar.html' %}
 
-    <div class="container text-light">
+<div class="container text-light">
     <div class="row">
-        <div class="col-md-6 offset-3 text-center" style="padding-top: 20%">
-            <h1>Welcome to Astro</h1>
-            <h3>Learn more about the galaxy around you</h3>
-            <a href="/stars" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Explore</a>
-        </div>
+    <div class="col-md-6 offset-3 text-center" style="padding-top: 20%">
+        <h1>Astro</h1>
+        <h3>Learn more about the galaxy around you</h3>
+        <a href="/stars" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Explore</a>
     </div>
+</div>
 
 {% endblock %}

@@ -37,6 +37,8 @@ def sun():
     s = requests.get('https://api.ipgeolocation.io/astronomy', params=headers)
     sunrise = s.json()["sunrise"]
     sunset = s.json()["sunset"]
+    # sunrise = "N/A" Incase API servers go down again.
+    # sunset = "N/A"
     return render_template('sun.html', sunrise=sunrise, sunset=sunset, city=city)
 
 @app.route('/stars')
