@@ -7,6 +7,8 @@ S(document).ready(function() {
 		'dec': -5.3911111,
 		'ground': false,
 		'constellations': true,
+		'constellationlabels': true,
+		'gridlines_gal': true,
 		'fov': 15,
 		'callback': {
 			'contextmenu': function(e){
@@ -28,9 +30,9 @@ planetarium8.draw();
 		}
 	});
 
-	S('button#pleiades').on('click',function(){ planetarium8.panTo(56.8690917,24.1053111,3000); });
-	S('button#M82').on('click',function(){ planetarium8.panTo(148.9684583,69.6797028,3000); });
-	S('button#M1').on('click',function(){ planetarium8.panTo(83.6330833,22.0145000,3000); });
-	S('button#M42').on('click',function(){ planetarium8.panTo(83.8220833,-5.3911111,3000); });
+	S('button#orion').on('click',function(){ planetarium8.panTo(86,6,3000); });
+	S('button#capricornus').on('click',function(){ planetarium8.panTo(150,140,3000); });
+	S('button#scorpius').on('click',function(){ planetarium8.panTo(83.6330833,22.0145000,3000); });
+	S('button#ursamajor').on('click',function(){ planetarium8.panTo(83.8220833,-5.3911111,3000); });
 
 });
