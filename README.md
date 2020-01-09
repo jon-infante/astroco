@@ -40,7 +40,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 - [jQuery](https://www.w3schools.com/jquery/default.asp) - jQuery simplifies HTML document traversing,
 - [Python](https://www.python.org/) - Python is a programming language that lets you work quickly
 and integrate systems more effectively.
-- [Virtual Sky](https://slowe.github.io/VirtualSky/) - Python is a programming language that lets you work quickly and integrate systems more effectively.
+- [Virtual Sky](https://slowe.github.io/VirtualSky/) - VirtualSky a browser-based planetarium from Las Cumbres Observatory that lets you see what is visible in the sky from any location on Earth
 - [ipgeolocation API](https://ipgeolocation.io/astronomy-api.html?ref=apilist.fun) - API for Sunset, Sunrise, Moonset and Moonrise timings.
 - [MapQuest API](https://developer.mapquest.com/) - MapQuest for Business powers thousands of businesses with location-enabled Geospatial solutions.
 - [Bootstrap](http://getbootstrap.com/) - Extensive list of components and  Bundled Javascript plugins.
