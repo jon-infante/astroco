@@ -1,7 +1,6 @@
 # Astro
 
 [![Website https://astroco-ji.herokuapp.com/](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://astroco-ji.herokuapp.com/)
-
 [![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://GitHub.com/jon-infante/astroco/graphs/contributors/)
 
 <table>
