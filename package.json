@@ -1,0 +1,19 @@
+{
+  "name": "astroco",
+  "version": "1.0.0",
+  "description": "Astronomy Hub for space related tools. Includes an interactive sky-box of the stars and retrieves sunrise/sunset data given a city using APIs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jon-infante/astroco.git"
+  },
+  "author": "Jon Infante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jon-infante/astroco/issues"
+  },
+  "homepage": "https://github.com/jon-infante/astroco#readme"
+}
