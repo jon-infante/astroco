@@ -37,7 +37,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## Built with
 
-- [jQuery](https://www.w3schools.com/jquery/default.asp) - jQuery simplifies HTML document traversing,
+- [jQuery](https://www.w3schools.com/jquery/default.asp) - jQuery simplifies HTML document traversing.
 - [Python](https://www.python.org/) - Python is a programming language that lets you work quickly
 and integrate systems more effectively.
 - [Virtual Sky](https://slowe.github.io/VirtualSky/) - VirtualSky a browser-based planetarium from Las Cumbres Observatory that lets you see what is visible in the sky from any location on Earth.
